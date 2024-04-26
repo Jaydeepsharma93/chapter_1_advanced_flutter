@@ -1,1 +1,1 @@
-bool isDark = true;
+bool isDark = false;

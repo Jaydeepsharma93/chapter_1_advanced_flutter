@@ -18,7 +18,7 @@ class _ThemeChangeState extends State<ThemeChange> {
           height: 800,
           width: 400,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).primaryColor,
             borderRadius: BorderRadius.circular(10),
             boxShadow: [
               BoxShadow(
@@ -38,6 +38,7 @@ class _ThemeChangeState extends State<ThemeChange> {
               ),),
               Text("It's a simple example of\ndark theme",textAlign:TextAlign.center,style: TextStyle(
                 fontSize: 25,
+                color: Theme.of(context).secondaryHeaderColor,
                 letterSpacing: 1
               ),),
               Spacer(),
