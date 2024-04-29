@@ -12,3 +12,4 @@
 <img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/483d6214-0e1c-4e24-9b28-0e3da5557520" width = 32%>
 
 ## 1.3 Provider Tree
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/d6f3ada6-3c9d-45df-9e2a-042451702d58" width = 70%>
