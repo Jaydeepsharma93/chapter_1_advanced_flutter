@@ -1,9 +1,13 @@
-import 'package:chapter_1_advanced_flutter/screens/1.1%20Switch%20Dark%20Theme%20to%20Light%20Theme/1.1.dart';
-import 'package:chapter_1_advanced_flutter/screens/1.2%20Create%20Registration%20Page%20using%20Stepper%20Widget/1.2.dart';
+import 'package:chapter_1_advanced_flutter/screens/1.4%20Provider%20&%20Change%20Theme%20using%20Provider/modal/provider.dart';
+import 'package:chapter_1_advanced_flutter/screens/1.4%20Provider%20&%20Change%20Theme%20using%20Provider/view/counter.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(create: (context) => CounterProvider(),
+    child: const MyApp())
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -24,12 +28,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.white12,
           secondaryHeaderColor: Colors.white38),
       debugShowCheckedModeBanner: false,
-      initialRoute: '/stepper2',
-      routes: {
-        // '/': (context) => const ThemeChange(),
-        '/stepper' : (context) => const StepperWidget(),
-        '/stepper2' : (context) => const Stepper_second()
-      },
+      home: const CounterApp(),
     );
   }
 }
