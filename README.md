@@ -13,3 +13,9 @@
 
 ## 1.3 Provider Tree
 <img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/d6f3ada6-3c9d-45df-9e2a-042451702d58" width = 70%>
+
+## 1.4 Provider & Change Theme using Provider
+
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/4115779b-66df-4dba-8b94-0e35d50b123b" width = 32%>
+<img src="" width = 32%>
+<img src="" width = 32%>
