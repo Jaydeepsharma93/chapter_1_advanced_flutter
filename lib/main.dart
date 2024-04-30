@@ -1,4 +1,5 @@
 import 'package:chapter_1_advanced_flutter/screens/1.4%20Provider%20&%20Change%20Theme%20using%20Provider/modal/provider.dart';
+import 'package:chapter_1_advanced_flutter/screens/1.4%20Provider%20&%20Change%20Theme%20using%20Provider/view/changetheme.dart';
 import 'package:chapter_1_advanced_flutter/screens/1.4%20Provider%20&%20Change%20Theme%20using%20Provider/view/counter.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,19 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.system,
+      themeMode: Provider.of<CounterProvider>(context,listen: true).isLight?ThemeMode.dark:ThemeMode.light,
       theme: ThemeData(
-          brightness: Brightness.light,
-          // scaffoldBackgroundColor: Colors.blue,
-          primaryColor: Colors.white,
-          secondaryHeaderColor: Colors.black45),
+          brightness: Brightness.light),
       darkTheme: ThemeData(
-          brightness: Brightness.dark,
-          // scaffoldBackgroundColor: Colors.red,
-          primaryColor: Colors.white12,
-          secondaryHeaderColor: Colors.white38),
+          brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
-      home: const CounterApp(),
+      home: const ChangeTheme(),
     );
   }
 }
