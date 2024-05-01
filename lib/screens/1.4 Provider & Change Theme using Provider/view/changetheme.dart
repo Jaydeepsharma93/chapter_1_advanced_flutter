@@ -27,49 +27,56 @@ class ChangeTheme extends StatelessWidget {
               ],
             ),
             SizedBox(height: 10),
-            CircleAvatar(maxRadius: 90),
+            CircleAvatar(maxRadius: 90,backgroundImage: AssetImage('assets/img/dp.jpg')),
             Text(
               "Testing User",
               style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 80),
             ListTile(
-              leading: Icon(Icons.sunny, size: 32),
+              leading: Icon(
+                  Provider.of<CounterProvider>(context, listen: true).isLight
+                      ? Icons.mode_night
+                      : Icons.sunny,
+                  size: 32,color: Theme.of(context).colorScheme.primary,),
               title: Text(
-                "Light mode",
+                Provider.of<CounterProvider>(context, listen: true).isLight
+                    ? "Dark Mode"
+                    : "Light Mode",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
               ),
               trailing: Switch(
                 value:
                     Provider.of<CounterProvider>(context, listen: true).isLight,
                 onChanged: (value) {
-                  Provider.of<CounterProvider>(context,listen: false).themeChange(value);
+                  Provider.of<CounterProvider>(context, listen: false)
+                      .themeChange(value);
                 },
               ),
             ),
             ListTile(
-              leading: Icon(Icons.grid_on, size: 32),
+              leading: Icon(Icons.grid_on, size: 32,color: Theme.of(context).colorScheme.secondary,),
               title: Text(
                 "Story",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
               ),
             ),
             ListTile(
-              leading: Icon(Icons.settings, size: 32),
+              leading: Icon(Icons.settings, size: 32,color: Theme.of(context).colorScheme.tertiary,),
               title: Text(
                 "Settings and Privacy",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
               ),
             ),
             ListTile(
-              leading: Icon(Icons.chat_outlined, size: 32),
+              leading: Icon(Icons.chat_outlined, size: 32,color: Theme.of(context).colorScheme.scrim,),
               title: Text(
                 "Help Center",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
               ),
             ),
             ListTile(
-              leading: Icon(Icons.notifications, size: 32),
+              leading: Icon(Icons.notifications, size: 32,color: Theme.of(context).colorScheme.surface,),
               title: Text(
                 "Notification",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
