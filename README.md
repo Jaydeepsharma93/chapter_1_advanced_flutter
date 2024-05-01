@@ -17,5 +17,6 @@
 ## 1.4 Provider & Change Theme using Provider
 
 <img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/4115779b-66df-4dba-8b94-0e35d50b123b" width = 32%>
-<img src="" width = 32%>
-<img src="" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/aeba53c7-92db-4249-b63e-27fc3d619435" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/cbc38faa-d584-4c86-8062-8931c68c7a47" width = 32%>
+
