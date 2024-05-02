@@ -54,7 +54,7 @@ class Screen3 extends StatelessWidget {
                 InkWell(
                   onTap: () {
                     Provider.of<IntroProvider>(context, listen: false)
-                        .getValues();
+                        .onPress();
                     Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => Home()));
                   },

@@ -36,9 +36,9 @@ class MyApp extends StatelessWidget {
       //         scrim: Colors.yellow,
       //         surface: Colors.amber)),
       debugShowCheckedModeBanner: false,
-        home: Provider.of<IntroProvider>(context, listen: true).isChecke
-            ? Home()
-            : Screen1(),
+      home: Provider.of<IntroProvider>(context, listen: true).isChecked
+          ? Home()
+          : Screen1(),
     );
   }
 }
