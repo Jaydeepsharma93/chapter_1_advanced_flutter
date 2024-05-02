@@ -6,11 +6,13 @@ class IntroProvider extends ChangeNotifier{
    Future<void> onPress () async {
       SharedPreferences preferences = await SharedPreferences.getInstance();
       preferences.setBool('viewed', true);
+      notifyListeners();
    }
    Future<void> getValues() async {
       SharedPreferences preferences = await SharedPreferences.getInstance();
 
       isChecke = preferences.getBool('viewed') ?? false;
+      notifyListeners();
    }
 
    IntroProvider() {
