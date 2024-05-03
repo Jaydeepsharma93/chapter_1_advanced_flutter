@@ -35,4 +35,7 @@
 <img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/0e4d3679-40ec-420b-b602-61a3102f04df" width = 32%>
 <div><video src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/5ee211d7-43af-42b2-9039-22ce8b65a47c"></div>
 
-
+## 1.7 Photo Gallery With Biometric Authentication
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/90298ea0-cfe6-4e2a-b124-d3149589b652" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/d08aa1de-3e7b-474f-9e5b-5325c0be2102" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/26b70b33-d92d-4caa-b80b-8c8fe773d4bd"></div>
