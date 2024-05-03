@@ -4,12 +4,15 @@ import 'package:chapter_1_advanced_flutter/screens/1.5%20One%20Time%20Intro%20Sc
 import 'package:chapter_1_advanced_flutter/screens/1.5%20One%20Time%20Intro%20Screen%20in%20Flutter/view/screen1.dart';
 import 'package:chapter_1_advanced_flutter/screens/1.5%20One%20Time%20Intro%20Screen%20in%20Flutter/view/screen2.dart';
 import 'package:chapter_1_advanced_flutter/screens/1.5%20One%20Time%20Intro%20Screen%20in%20Flutter/view/screen3.dart';
+import 'package:chapter_1_advanced_flutter/screens/1.6%20Contact%20Us%20Page%20With%20Interaction/view/url_Interaction.dart';
+import 'package:chapter_1_advanced_flutter/screens/1.7%20Photo%20Gallery%20With%20Biometric%20Authentication/view/gallery.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(
-      create: (context) => IntroProvider(), child: const MyApp()));
+  // runApp(ChangeNotifierProvider(
+  //     create: (context) => IntroProvider(), child: const MyApp()));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -36,9 +39,10 @@ class MyApp extends StatelessWidget {
       //         scrim: Colors.yellow,
       //         surface: Colors.amber)),
       debugShowCheckedModeBanner: false,
-      home: Provider.of<IntroProvider>(context, listen: true).isChecked
-          ? Home()
-          : Screen1(),
+      home: GalleryView()
+      // Provider.of<IntroProvider>(context, listen: true).isChecked
+      //     ? Home()
+      //     : Screen1(),
     );
   }
 }
