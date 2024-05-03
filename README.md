@@ -25,3 +25,14 @@
 
 ## 1.5 One Time Intro Screen in Flutter 
 
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/0471ab5b-0834-4350-84dd-1f8c29f5b9a3" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/8f2e890e-cb2c-48aa-9146-a8b378df4d8c" width = 32%>
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/c5cec95c-ad8a-40df-b56b-205eb21847d3" width = 32%>
+<div><video src=""></div>
+  
+## 1.6 Contact Us Page With Interaction
+
+<img src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/0e4d3679-40ec-420b-b602-61a3102f04df" width = 32%>
+<div><video src="https://github.com/Jaydeepsharma93/chapter_1_advanced_flutter/assets/143181361/5ee211d7-43af-42b2-9039-22ce8b65a47c"></div>
+
+
